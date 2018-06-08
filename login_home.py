@@ -1,5 +1,4 @@
 # coding=utf-8
-import win32api,win32con
 from pytesseract import *
 from PIL import Image
 from error import *

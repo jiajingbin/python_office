@@ -25,3 +25,9 @@ def login_failure_passwd():
 def login_failure_validatecode():
         login_failure_validatecode = "-----请检查验证码-----"
         return(login_failure_validatecode)
+def ip_search_error():
+        ip_search_error = "-----检测不到被测终端ip-----"
+        return(ip_search_error)
+def check_error():
+        check_error = "-----检测超时，请手工检查-----"
+        return(check_error)
